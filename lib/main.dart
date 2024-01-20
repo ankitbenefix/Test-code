@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:testing/widgets/close_button.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Testing',
-      // home: BannerWidget(),
+      home: CloseButtonWidget(),
     );
   }
 }
