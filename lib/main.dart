@@ -1,11 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:testing/widgets/close_button.dart';
-import 'package:testing/widgets/default_text_style.dart';
-import 'package:testing/widgets/draggable_scrollable_sheet.dart';
-import 'package:testing/widgets/error_widget.dart';
-import 'package:testing/widgets/expand_icon.dart';
-import 'package:testing/widgets/expansion_panel_list.dart';
+import 'package:testing/widgets/grid_tile_bar.dart';
 
 void main() {
   ErrorWidget.builder = (FlutterErrorDetails details) {
@@ -38,7 +33,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Testing',
-      home: ExpansionPanelListWidget(),
+      home: GridTileBarWidget(),
     );
   }
 }
