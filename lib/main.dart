@@ -1,6 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:testing/widgets/grid_tile_bar.dart';
+import 'package:testing/widgets/indexed_stack.dart';
+import 'package:testing/widgets/off_stage.dart';
+import 'package:testing/widgets/orientation_builder.dart';
 
 void main() {
   ErrorWidget.builder = (FlutterErrorDetails details) {
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Testing',
-      home: GridTileBarWidget(),
+      home: OrientationBuilderWidget(),
     );
   }
 }
