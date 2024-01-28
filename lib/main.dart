@@ -4,6 +4,9 @@ import 'package:testing/widgets/grid_tile_bar.dart';
 import 'package:testing/widgets/indexed_stack.dart';
 import 'package:testing/widgets/off_stage.dart';
 import 'package:testing/widgets/orientation_builder.dart';
+import 'package:testing/widgets/radio_list_tile.dart';
+import 'package:testing/widgets/rich_text.dart';
+import 'package:testing/widgets/simple_dialog.dart';
 
 void main() {
   ErrorWidget.builder = (FlutterErrorDetails details) {
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Testing',
-      home: OrientationBuilderWidget(),
+      home: SimpleDialogWidget(),
     );
   }
 }
