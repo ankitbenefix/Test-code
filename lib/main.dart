@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:testing/widgets/simple_dialog.dart';
+import 'package:testing/widgets/stepper.dart';
 
 void main() {
   ErrorWidget.builder = (FlutterErrorDetails details) {
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Testing',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: false),
-      home: SimpleDialogWidget(),
+      home: StepperWidget(),
     );
   }
 }
